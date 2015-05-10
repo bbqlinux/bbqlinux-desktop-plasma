@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-desktop-plasma
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="BBQLinux Plasma Desktop"
 arch=('any')
@@ -39,6 +39,9 @@ depends=(
 'plasma-workspace-wallpapers'
 'powerdevil'
 'systemsettings'
+
+# Terminal
+'konsole'
 
 # File Manager
 'kdebase-dolphin'
