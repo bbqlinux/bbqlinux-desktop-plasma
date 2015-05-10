@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-desktop-plasma
-pkgver=1.0.1
+pkgver=1.0.3
 pkgrel=1
 pkgdesc="BBQLinux Plasma Desktop"
 arch=('any')
@@ -53,5 +53,8 @@ depends=(
 )
 
 package() {
-    cd "$srcdir"
+    cd "$pkgdir"
+    mkdir -p etc
+
+    cp -R "$srcdir/etc/skel" etc/skel
 }
