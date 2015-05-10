@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-desktop-plasma
-pkgver=1.0.3
+pkgver=1.0.5
 pkgrel=1
 pkgdesc="BBQLinux Plasma Desktop"
 arch=('any')
