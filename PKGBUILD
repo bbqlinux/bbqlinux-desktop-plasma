@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-desktop-plasma
-pkgver=1.0.5
+pkgver=1.0.6
 pkgrel=1
 pkgdesc="BBQLinux Plasma Desktop"
 arch=('any')
@@ -18,15 +18,19 @@ depends=(
 # Plasma
 'bluedevil'
 'breeze'
+'breeze-icons'
 'drkonqi'
 'kde-gtk-config'
 'kdeplasma-addons'
+'kgamma5'
+'khelpcenter'
 'kinfocenter'
-'kio-extras'
 'kmenuedit'
 'kscreen'
 'ksshaskpass'
 'ksysguard'
+'kwallet-pam'
+'kwayland-integration'
 'kwin'
 'kwrited'
 'milou'
@@ -35,10 +39,13 @@ depends=(
 'plasma-desktop'
 'plasma-mediacenter'
 'plasma-nm'
+'plasma-pa'
 'plasma-workspace'
 'plasma-workspace-wallpapers'
 'powerdevil'
+'sddm-kcm'
 'systemsettings'
+'user-manager'
 
 # Terminal
 'konsole'
