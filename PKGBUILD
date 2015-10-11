@@ -52,7 +52,6 @@ depends=(
 
 # File Manager
 'kdebase-dolphin'
-'kdesdk-dolphin-plugins'
 
 # For Qt4 applications to have a consistent appearance
 'breeze-kde4'
